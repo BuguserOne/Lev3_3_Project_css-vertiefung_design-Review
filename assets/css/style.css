@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Farben: #2B2C2E - #9FA2A7 - #27282A - #848689 - #3D3E41 - #fff */
+
+
+/* Fonts: Graphik, TiemposHeadline, Theinhardt */
+
+@font-face {
+    font-family: "graphik";
+    src: url(../fonts/Graphik-Regular.woff);
+}
+@font-face {
+    font-family: "graphikMedium";
+    src: url(../fonts/Graphik-Medium.ttf);
+}
+@font-face {
+    font-family: "tiemposHeadline";
+    src: url(../fonts/TiemposHeadline-Semibold.woff);
+}
+@font-face {
+    font-family: "theinhardt";
+    src: url(../fonts/Theinhardt-Lt.woff);
+}
+
+/*                  FONT_CLASSES             */
+
+.graphik {
+    font-family: "graphik";
+}
+
+.graphikMedium {
+    font-family: "graphikMedium";
+}
+
+.tiemposHeadline {
+    font-family: "tiemposHeadline";
+}
+
+.theinhardt {
+    font-family: "theinhardt";
+}
+
+/*                  BODY                      */
+
+body {
+    background-color: white;
+    color: black;
+
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+/*                  NAV                      */
+
+.nav {
+    height: 6vh;
+    padding: 0 5vw 0 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav div {
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+}
+
+.nav div a {
+    text-decoration: none;
+    color: black;
+    margin: 0 1vw 0 1vw;
+}
+
+.button {
+    padding: 0.5vh 3vw 0.5vh 3vw;
+    border: 2px solid rgb(0, 217, 11);
+    border-radius: 4px;
+    background-color: rgb(0, 217, 11);
+
+
+}
+
+.button:hover {
+    background-color: rgb(0, 138, 7);
+    border: 2px solid rgb(0, 138, 7);
+    color: black;
+}
+
+/*                  HEADER                   */
+
+.header {
+    position: relative;
+    height: 94vh;
+    margin-top: 1vh;
+}
+
+.header h1 {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 6vh;
+}
+
+.header img {
+    width: 100vw;
+    max-width: 1920px;
+    margin-top: 4vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header section {
+    display: flex;
+    justify-content: center;
+    padding: 10vh 5vw 10vh 5vw;
+}
+
+.header section p {
+    width: 600px;
+}
+
+.header article p:first-of-type {
+    margin-left: 8vw;
+    font-size: 3rem;
+}
+
+.header article p:last-of-type {
+    margin-left: 8vw;
+    width: 200px;
+}
+
+/*                  SECTION1                  */
+
+.section1 {
+    margin-top: 20vh;
+    height: 100vh;
+    position: relative;
+    padding: 0 5vw 0 5vw;
+}
+
+.section1 article {
+    display: flex;
+    justify-content: center;
+}
+
+.section1 article img {
+    width: 500px;
+
+}
+
+.section1 article div {
+    margin: 0 0 0 30px;
+}
+
+.section1 article div h1 {
+    font-size: 3rem;
+    margin: 30px 0 30px 0;
+}
+
+.section1 article div h4 {
+    font-size: 1.5rem;
+    line-height: 3;
+}
+
+.section1 article div p {
+    max-width: 500px;
+}
+
+/*                  SECTION2                  */
+
+.section2 {
+    height: 60vh;
+    position: relative;
+    padding: 0 5vw 0 5vw;
+}
+
+.section2 article {
+    background-color: #9FA2A7;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+
+.section2 article div {
+    padding: 50px;
+}
+
+.section2 article div h1 {
+    font-size: 3rem;
+    margin: 20px 0;
+}
+
+.section2 article div ol {
+    margin: 0 0 0 20px;
+}
+
+.section2 article img {
+    width: 500px;
+}
+
+/*                  SECTION3                  */
+
+.section3 {
+    height: 30vh;
+    position: relative;
+    padding: 0 5vw 0 5vw;
+}
+
+.section3 article {
+    height: 20vh;
+    text-align: center;
+}
+
+.section3 article h1 {
+    font-size: 3rem;
+    margin: 20px 0;
+}
+
+
+    /*              SECTION4                  */
+
+.section4 {
+    height: 100vh;
+    position: relative;
+    padding: 0 5vw 0 5vw;
+}
+
+.section4 article {
+    position: absolute;
+    background-color: antiquewhite;
+}
+
+.section4 article img {
+    position: absolute;
+    top: 20px;
+}
+
+.section4 article div {
+    display: flex;
+    justify-content: center;
+}
+
+
+.section4 article div img {
+    position: absolute;
+    left: 700px;
+    top: 200px;
+    width: 600px;
+    height: auto;
+}
+
+/*                  FOOTER                  */
+
+.footer {
+    height: 30vh;
+    padding: 0 5vw 0 5vw;
+    text-align: center;
+    
+}
+
+.footer img {
+    width: 50px;
+    height: auto;
+}
+
+.footer article {
+    margin: 18vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer h1 {
+    font-size: 3rem;
+}
